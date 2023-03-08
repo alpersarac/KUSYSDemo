@@ -12,7 +12,7 @@ namespace KUSYSDemo.Controllers
     public class CourseController : Controller
     {
 
-       
+        //Unit of work
         IUnitOfWork _unitOfWork;
         public CourseController(IUnitOfWork unitOfWork)
         {
